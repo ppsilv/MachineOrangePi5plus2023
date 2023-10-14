@@ -1,0 +1,62 @@
+{
+    "name": "John Smith",
+    "hometown": {
+        "name": "New York",
+        "id": 123
+    },
+    "list": [
+        "a",
+        "b",
+        "c",
+        231,
+        {
+            "key": 41
+        }
+    ],
+    "foos" : [{
+        "prop1":"value1",
+        "prop2":"value2"
+    }, {
+        "prop1":"value3", 
+        "prop2":"value4"
+    }],    
+	"totalMaquinas": 4,
+	"maquinas":[
+		{
+		"name": "raspi005",
+		"IP": "192.168.15.5",
+		"descricao": "Uso geral desenvolvimento",
+		"linuxVersion": "xxx",
+		"lastStatus": "0",
+		"status": "0"
+		},
+		{
+		"name": "raspi006",
+		"IP": "192.168.15.6",
+		"descricao": "Disco sdcard 32GB",
+		"linuxVersion": "xxx",
+		"lastStatus": "0",
+		"status": "0"
+		},
+		{
+		"name": "raspi007",
+		"IP": "192.168.15.7",
+		"descricao": "Servidor aplicacoes",
+		"linuxVersion": "xxx",
+		"lastStatus": "0",
+		"status": "0"
+		},
+		{
+		"name": "raspi008",
+		"IP": "192.168.15.8",
+		"descricao": "Uso desenvolvimento python",
+		"linuxVersion": "xxx",
+		"lastStatus": "0",
+		"status": "0"
+		}],
+    "object": {
+        "key": {
+            "key": 51
+        }
+    }
+}

@@ -1,0 +1,5 @@
+192.168.15.5 ATIVO
+192.168.15.6 ATIVO
+192.168.15.7 ATIVO
+pinging...  yahoo.com
+Response [  <pyping.core.Response object at 0xffff9b3dd420> ]

@@ -1,0 +1,20 @@
+Esse projeto é para rodar no raspiberry 3 de nome raspberry5 para monitor os outros raspis
+O raspiberry5 terá as seguintes caracteristicas:
+0 - Inicializar o log
+
+1 - Gerenciamento próprio
+	1.1 - seu proprio nobreak.
+	1.2 - criar uma thread para verificar a bateria.
+		1.2.1 - através de um ADC ler a tensão da bateria e tomar uma ação quando ela estiver próxima de descarregar.
+		1.2.2 - quando a bateria estiver descarregada deslicar sua própria fonte de alimentação
+    			1.2.2.1 - verificar como dar shutdown e desligar a alimentação.
+
+2 - Gerencimento dos raspbery pi 4
+	2.1 - na inicialização ler o JSON com a lista com os dados dos raspberrys. 
+	2.2 - por os dados do JSON em uma classe.
+        2.3 - criar uma thread para verificar as maquinas periódicamente.
+		2.3.1 - verificar se as maquinas estão no ar, setar na classe o estado das maquinas.
+		2.3.2 - para cada maquina que o estado mudou logar e setar na classe o status changed.
+
+3 - 	
+

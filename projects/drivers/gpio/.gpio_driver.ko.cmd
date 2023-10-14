@@ -1,0 +1,1 @@
+cmd_/home/orangepi/projects/drivers/gpio/gpio_driver.ko := ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /home/orangepi/projects/drivers/gpio/gpio_driver.ko /home/orangepi/projects/drivers/gpio/gpio_driver.o /home/orangepi/projects/drivers/gpio/gpio_driver.mod.o;  make -f ./arch/arm64/Makefile.postlink /home/orangepi/projects/drivers/gpio/gpio_driver.ko

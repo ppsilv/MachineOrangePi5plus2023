@@ -1,0 +1,1 @@
+cmd_/home/pdsilva/projects/drivers/hello/hello.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pdsilva/projects/drivers/hello/hello.ko /home/pdsilva/projects/drivers/hello/hello.o /home/pdsilva/projects/drivers/hello/hello.mod.o;  make -f ./arch/arm64/Makefile.postlink /home/pdsilva/projects/drivers/hello/hello.ko

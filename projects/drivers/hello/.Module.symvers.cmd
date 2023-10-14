@@ -1,0 +1,1 @@
+cmd_/home/pdsilva/projects/drivers/hello/Module.symvers := sed 's/\.ko$$/\.o/' /home/pdsilva/projects/drivers/hello/modules.order | scripts/mod/modpost -m -a   -o /home/pdsilva/projects/drivers/hello/Module.symvers -e -i Module.symvers   -T -
